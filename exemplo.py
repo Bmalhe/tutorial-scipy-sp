@@ -1,6 +1,9 @@
 #teste arquivo
 
-def func():
+def func(nome="barbara"):
     print('Hi')
 
+nome='babi'
+
+print(func(nome))
 func()
